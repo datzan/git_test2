@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid rgba(255, 0, 0, 0.498); */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh
+    ;
+    border: 1px solid rgb(8, 186, 8);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-card {
+    padding: 20rem;
+    border: 1px solid blue;
+}
+
+.card {
+    background: rgb(238,174,202);
+background: linear-gradient(325deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10%;
+    padding: 2rem;
+    
+}
+
+.counter-title {
+    border: 1px solid red;
+    display: inline-block;
+    
+}
+
+.counter {
+    border: 1px solid black;
+}
+
+#actualcounting {
+    font-size: 5rem;
+    margin-left: 2rem;
+}
