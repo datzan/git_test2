@@ -17,28 +17,44 @@
 
 .container-card {
     padding: 20rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    background-color: rgba(250, 128, 114, 0.195);
 }
 
 .card {
     background: rgb(238,174,202);
-background: linear-gradient(325deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: linear-gradient(325deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     border-radius: 10%;
-    padding: 2rem;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 2rem 1.5rem 1.5rem;
+    
+}
+
+.button-container {
+    border: 1px solid red;
     
 }
 
 .counter-title {
-    border: 1px solid red;
-    display: inline-block;
+    text-align: center;
     
 }
 
 .counter {
-    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 1em;
 }
+
+button {
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 10%;
+    padding: 1.5rem 0.5rem;
+    border-style: none;
+
+}
+
 
 #actualcounting {
     font-size: 5rem;
-    margin-left: 2rem;
 }
