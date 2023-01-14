@@ -9,7 +9,7 @@
 .container {
     display: flex;
     justify-content: center;
-    min-height: 100vh
+    min-height: 100vw
     ;
     border: 1px solid rgb(8, 186, 8);
     font-family: 'Poppins', sans-serif;
@@ -18,7 +18,7 @@
 .container-card {
     padding: 20rem;
     /* border: 1px solid blue; */
-    background-color: rgba(250, 128, 114, 0.195);
+    /* background-color: rgba(250, 128, 114, 0.195); */
 }
 
 .card {
@@ -32,6 +32,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 74px rgba(252, 75, 252, 0.5)  ; 
+	-webkit-box-shadow: 0 5px 74px rgba(252, 75, 252, 0.5)  ; 
+	-moz-box-shadow: 0 5px 74px rgba(252, 75, 252, 0.5)  ; 
+
 
     
 }
@@ -67,7 +71,7 @@ button {
     background-color: rgba(255, 255, 255, 0.411);
     border-radius: 10%;
     padding: 0 0.5rem;
-    border-style: none;
+    /* border-style: none; */
     min-height: 5rem;
     max-height: 5rem;
     min-width: 5rem;
